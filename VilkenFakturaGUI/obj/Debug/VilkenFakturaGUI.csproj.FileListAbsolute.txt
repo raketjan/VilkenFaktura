@@ -1,0 +1,17 @@
+c:\users\jannordberg\documents\visual studio 2015\Projects\VilkenFakturaGUI\VilkenFakturaGUI\bin\Debug\VilkenFakturaGUI.exe.config
+c:\users\jannordberg\documents\visual studio 2015\Projects\VilkenFakturaGUI\VilkenFakturaGUI\bin\Debug\VilkenFakturaGUI.exe
+c:\users\jannordberg\documents\visual studio 2015\Projects\VilkenFakturaGUI\VilkenFakturaGUI\bin\Debug\VilkenFakturaGUI.pdb
+c:\users\jannordberg\documents\visual studio 2015\Projects\VilkenFakturaGUI\VilkenFakturaGUI\obj\Debug\MainWindow.g.cs
+c:\users\jannordberg\documents\visual studio 2015\Projects\VilkenFakturaGUI\VilkenFakturaGUI\obj\Debug\VilkenFakturaHome.g.cs
+c:\users\jannordberg\documents\visual studio 2015\Projects\VilkenFakturaGUI\VilkenFakturaGUI\obj\Debug\App.g.cs
+c:\users\jannordberg\documents\visual studio 2015\Projects\VilkenFakturaGUI\VilkenFakturaGUI\obj\Debug\VilkenFakturaGUI_MarkupCompile.cache
+c:\users\jannordberg\documents\visual studio 2015\Projects\VilkenFakturaGUI\VilkenFakturaGUI\obj\Debug\VilkenFakturaGUI_MarkupCompile.lref
+c:\users\jannordberg\documents\visual studio 2015\Projects\VilkenFakturaGUI\VilkenFakturaGUI\obj\Debug\MainWindow.baml
+c:\users\jannordberg\documents\visual studio 2015\Projects\VilkenFakturaGUI\VilkenFakturaGUI\obj\Debug\VilkenFakturaHome.baml
+c:\users\jannordberg\documents\visual studio 2015\Projects\VilkenFakturaGUI\VilkenFakturaGUI\obj\Debug\VilkenFakturaGUI.g.resources
+c:\users\jannordberg\documents\visual studio 2015\Projects\VilkenFakturaGUI\VilkenFakturaGUI\obj\Debug\VilkenFakturaGUI.Properties.Resources.resources
+c:\users\jannordberg\documents\visual studio 2015\Projects\VilkenFakturaGUI\VilkenFakturaGUI\obj\Debug\VilkenFakturaGUI.csproj.GenerateResource.Cache
+c:\users\jannordberg\documents\visual studio 2015\Projects\VilkenFakturaGUI\VilkenFakturaGUI\obj\Debug\VilkenFakturaGUI.exe
+c:\users\jannordberg\documents\visual studio 2015\Projects\VilkenFakturaGUI\VilkenFakturaGUI\obj\Debug\VilkenFakturaGUI.pdb
+c:\users\jannordberg\documents\visual studio 2015\Projects\VilkenFakturaGUI\VilkenFakturaGUI\obj\Debug\App.baml
+C:\Users\JanNordberg\Documents\Visual Studio 2015\Projects\VilkenFakturaGUI\VilkenFakturaGUI\obj\Debug\GeneratedInternalTypeHelper.g.cs

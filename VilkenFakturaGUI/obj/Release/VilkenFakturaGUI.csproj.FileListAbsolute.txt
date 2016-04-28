@@ -1,0 +1,17 @@
+C:\Users\JanNordberg\Documents\Visual Studio 2015\Projects\VilkenFakturaGUI\VilkenFakturaGUI\bin\Release\VilkenFakturaGUI.exe.config
+C:\Users\JanNordberg\Documents\Visual Studio 2015\Projects\VilkenFakturaGUI\VilkenFakturaGUI\bin\Release\VilkenFakturaGUI.exe
+C:\Users\JanNordberg\Documents\Visual Studio 2015\Projects\VilkenFakturaGUI\VilkenFakturaGUI\bin\Release\VilkenFakturaGUI.pdb
+C:\Users\JanNordberg\Documents\Visual Studio 2015\Projects\VilkenFakturaGUI\VilkenFakturaGUI\obj\Release\MainWindow.g.cs
+C:\Users\JanNordberg\Documents\Visual Studio 2015\Projects\VilkenFakturaGUI\VilkenFakturaGUI\obj\Release\VilkenFakturaHome.g.cs
+C:\Users\JanNordberg\Documents\Visual Studio 2015\Projects\VilkenFakturaGUI\VilkenFakturaGUI\obj\Release\App.g.cs
+C:\Users\JanNordberg\Documents\Visual Studio 2015\Projects\VilkenFakturaGUI\VilkenFakturaGUI\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\JanNordberg\Documents\Visual Studio 2015\Projects\VilkenFakturaGUI\VilkenFakturaGUI\obj\Release\VilkenFakturaGUI_MarkupCompile.cache
+C:\Users\JanNordberg\Documents\Visual Studio 2015\Projects\VilkenFakturaGUI\VilkenFakturaGUI\obj\Release\VilkenFakturaGUI_MarkupCompile.lref
+C:\Users\JanNordberg\Documents\Visual Studio 2015\Projects\VilkenFakturaGUI\VilkenFakturaGUI\obj\Release\App.baml
+C:\Users\JanNordberg\Documents\Visual Studio 2015\Projects\VilkenFakturaGUI\VilkenFakturaGUI\obj\Release\MainWindow.baml
+C:\Users\JanNordberg\Documents\Visual Studio 2015\Projects\VilkenFakturaGUI\VilkenFakturaGUI\obj\Release\VilkenFakturaHome.baml
+C:\Users\JanNordberg\Documents\Visual Studio 2015\Projects\VilkenFakturaGUI\VilkenFakturaGUI\obj\Release\VilkenFakturaGUI.g.resources
+C:\Users\JanNordberg\Documents\Visual Studio 2015\Projects\VilkenFakturaGUI\VilkenFakturaGUI\obj\Release\VilkenFakturaGUI.Properties.Resources.resources
+C:\Users\JanNordberg\Documents\Visual Studio 2015\Projects\VilkenFakturaGUI\VilkenFakturaGUI\obj\Release\VilkenFakturaGUI.csproj.GenerateResource.Cache
+C:\Users\JanNordberg\Documents\Visual Studio 2015\Projects\VilkenFakturaGUI\VilkenFakturaGUI\obj\Release\VilkenFakturaGUI.exe
+C:\Users\JanNordberg\Documents\Visual Studio 2015\Projects\VilkenFakturaGUI\VilkenFakturaGUI\obj\Release\VilkenFakturaGUI.pdb

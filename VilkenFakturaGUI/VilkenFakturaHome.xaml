@@ -1,0 +1,125 @@
+﻿<Page x:Class="VilkenFakturaGUI.VilkenFakturaHome"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:VilkenFakturaGUI"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="550" Language="sv-SE"
+      Title="Vilken Faktura Home" >
+    <Grid Margin="5,5,5,5">        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1"/>
+            <RowDefinition Height="55"/>
+            <RowDefinition />
+            <RowDefinition Height="45"/>
+        </Grid.RowDefinitions>
+        <Border Grid.Row="1" Background="GhostWhite" BorderBrush="Silver" BorderThickness="1" CornerRadius="5" Padding="1" Margin="2" >
+            <StackPanel Orientation="Horizontal">                  
+                    <Label Width="90">
+                    <Label.Content>
+                        <AccessText TextWrapping="Wrap" Text="Lägg till fakturapost:"/>
+                    </Label.Content>
+                        
+                    </Label>
+                    <AdornerDecorator >
+                    <TextBox Margin="1" Name="NewInvoiceName" Width="220" Height="28" >
+                            <local:WatermarkService.Watermark>
+                            <TextBlock Style="{StaticResource textblockStyle}">Fakturatext</TextBlock>
+                            </local:WatermarkService.Watermark>
+                        </TextBox>
+                    </AdornerDecorator>
+                    <AdornerDecorator>
+                    <TextBox Margin="1" Name="NewInvoiceCost" Width="150" Height="28" >
+                            <local:WatermarkService.Watermark>
+                            <TextBlock Style="{StaticResource textblockStyle}">Kostnad</TextBlock>
+                            </local:WatermarkService.Watermark>
+                        </TextBox>
+                    </AdornerDecorator>
+               
+                <Button Margin="15,1,1,1" Name="NewInvoiceButton" Click="NewInvoiceButton_Click" Style="{StaticResource buttonStyle}" >Lägg till</Button>
+                
+            </StackPanel>
+        </Border>
+        <Grid Grid.Column="0" Grid.Row="2">
+            <TabControl Name="MainTabControl">
+                <TabItem Name="InvoiceItemsTab" Header="Fakturaposter">
+                    <ListView Name="invoiceListBox"  ItemsSource="{Binding}" HorizontalAlignment="Stretch" >
+                    <ListView.View>
+                        <GridView >
+                            <GridView.ColumnHeaderContainerStyle>
+                                <Style TargetType="GridViewColumnHeader">
+                                    <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                                </Style>
+                            </GridView.ColumnHeaderContainerStyle>
+                            <!--<GridViewColumn DisplayMemberBinding="{Binding Path=Id}" Header="Id" Width="30"/> -->
+                            <GridViewColumn  Width="280" >
+                                <GridViewColumn.Header>
+                                    <GridViewColumnHeader Content="Namn" HorizontalContentAlignment="Left"/>
+                                </GridViewColumn.Header>
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBox Text="{Binding Path=Name}" TextAlignment="Left" />
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                            <GridViewColumn Width="165" >
+                                <GridViewColumn.Header>
+                                    <GridViewColumnHeader Content="Kostnad" HorizontalContentAlignment="Center"/>
+                                </GridViewColumn.Header>
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBox Text="{Binding Path=Cost,StringFormat=c}" TextAlignment="Right"  />
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                            <GridViewColumn  Width="40" >
+                                <GridViewColumn.Header>
+                                    <GridViewColumnHeader Content="Inkl." HorizontalContentAlignment="Center"/>
+                                </GridViewColumn.Header>
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <CheckBox HorizontalAlignment="Center" VerticalAlignment="Center" IsChecked="{Binding Path=Include}" />
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                            <GridViewColumn Width="70">
+                                <GridViewColumn.Header>
+                                    <GridViewColumnHeader Content="Radera" HorizontalContentAlignment="Center"/>
+                                </GridViewColumn.Header>
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Button HorizontalAlignment="Center" VerticalAlignment="Center" Click="DeleteRow_Click">Ta bort</Button>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+
+                            </GridViewColumn>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+                </TabItem>
+                <TabItem Name="SolutionTab" Header="Lösning">
+                    <TextBox Name="Results" Text="Här kommer det presenteras en eventuell lösning..." />
+                </TabItem>
+            </TabControl>
+        </Grid>
+        <Border Grid.Row="3" Background="GhostWhite" BorderBrush="Silver" BorderThickness="1" CornerRadius="5" Padding="1" Margin="2" >
+            <Grid>
+                <StackPanel Grid.Column="0" Grid.Row="3" Orientation="Horizontal">
+                <Label VerticalAlignment="Center">Delsumma</Label>
+                <TextBox Name="SumTextBox" Width="100" Text="{Binding Path=Sum,StringFormat=c}" Height="20" />
+            </StackPanel>
+            <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Right" >
+                <Button  Click="ImportButton_Click" Style="{StaticResource buttonStyle}">Importera</Button>
+                <Button  Click="OpenButton_Click" Style="{StaticResource buttonStyle}">Öppna</Button>
+                <Button  Click="SaveButton_Click" Style="{StaticResource buttonStyle}">Spara</Button>
+                <Button Name="Calculate_Button"  Click="CalculateButton_Click" Style="{StaticResource buttonStyle}">Beräkna</Button>
+            </StackPanel>
+            </Grid>
+
+        </Border>
+        <Grid.Resources>
+            <local:WidthCalculationMultiConverter x:Key="lastColumnMaximizerConverter"/>
+        </Grid.Resources>
+    </Grid>
+</Page>

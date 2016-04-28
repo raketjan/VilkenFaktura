@@ -1,0 +1,4 @@
+﻿Släng in allt du kommer på saknas Jan!
+
+spara även summan i fil
+hantera inkludera
